@@ -96,6 +96,16 @@ h6 {
   margin-bottom: 1.5rem;
 }
 
+p,
+ol,
+ul,
+dl,
+table,
+address,
+figure {
+  margin-bottom: 1.5rem;
+}
+
 /*---------------------------------------/*
  # OBJECTS
 /*---------------------------------------*/

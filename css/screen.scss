@@ -215,10 +215,12 @@ dl,
 table,
 address,
 figure {
+  margin-bottom: $space-m;
 }
 
 ul,
 ol {
+  padding-left: 0;
 }
 
 li ul,
@@ -226,9 +228,18 @@ li ol {
 }
 
 blockquote {
+  font-family: $font-family-secondary;
+  font-style: italic;
+  font-size: $ms3;
+  line-height: calc($baseline *4);
+  margin-bottom: $space-m;
 }
 
 figcaption {
+  font-size: $ms-1;
+  line-height: calc(baseline * 2);
+  margin-top: $space-xs;
+  color: $color-text-light;
 }
 
 hr {
