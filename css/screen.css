@@ -72,6 +72,18 @@ h1 {
   line-height: 2rem;
   margin-bottom: 1.5rem;
 }
+@media (max-width: 36.0625em) {
+  h1 {
+    font-size: 2.8865075782rem;
+    line-height: 3rem;
+  }
+}
+@media (max-width: 48.0625em) {
+  h1 {
+    font-size: 3.6532361537rem;
+    line-height: 4rem;
+  }
+}
 
 h2 {
   font-size: 1.423828125rem;
@@ -106,6 +118,51 @@ figure {
   margin-bottom: 1.5rem;
 }
 
+ul,
+ol {
+  padding-left: 0;
+  list-style-position: inside;
+}
+
+blockquote {
+  font-family: "Times New Roman", Times, serif;
+  font-style: italic;
+  font-size: 1.423828125rem;
+  line-height: 2rem;
+  margin-bottom: 1.5rem;
+}
+
+figcaption {
+  font-size: 0.8888888889rem;
+  line-height: 1rem;
+  margin-top: 0.5rem;
+  color: hsl(198.0786026201, 10%, 30%);
+}
+
+hr {
+  border: 0;
+  height: 1px;
+  background-color: hsl(198.0786026201, 10%, 90%);
+  margin-bottom: 1.5rem;
+}
+
+a {
+  color: hotpink;
+}
+
+a:visited {
+  color: hotpink;
+}
+
+a:hover {
+  transition: 0.1s ease-in-out;
+  color: hsl(198.0786026201, 100%, 50%);
+}
+
+a:active {
+  color: hotpink;
+}
+
 /*---------------------------------------/*
  # OBJECTS
 /*---------------------------------------*/
@@ -114,6 +171,10 @@ figure {
     ---
     Creates a horizontal row with padding
 */
+.o-row {
+  padding: 1.5rem 1.5rem 0;
+}
+
 /*
     Objects: Container
     ---
